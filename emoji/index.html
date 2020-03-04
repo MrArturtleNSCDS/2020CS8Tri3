@@ -22,7 +22,13 @@
                 top: 50px;
             }
             .pupil{
-                 position:absoulute;
+                 position:absolute;
+                 background-color: black;
+                 width: 30px;
+                 height: 30px;
+                 border-radius: 50%;
+                 left:10px;
+                 /*transform: translateX(-50%);*/
             }
             #leftEye{
                 left: 25px;
@@ -43,6 +49,7 @@
           
             }
         </style>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
     </head>
     <body>
         <div id='face'>
@@ -57,4 +64,5 @@
             </div>
         </div>
     </body>
+    <script src="motion.js"></script>
 </html>
