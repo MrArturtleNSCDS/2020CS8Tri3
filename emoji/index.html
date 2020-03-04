@@ -22,11 +22,9 @@
                 top: 50px;
             }
             .eyebrow{
-                width: 44px;
-                height: 7px;
-                background: url('eyebrow.png') no-repeat center center;
-                background-size:contain;
+                width: 50px;
                 position: absolute;
+                top: -20px;
             }
             .pupil{
                  position:absolute;
@@ -43,6 +41,7 @@
             #rightEye{
                 right: 25px;
             }
+
             #mouth{
                 background: url('emojiMouth.png') no-repeat center center;
                 background-size:contain;
@@ -61,10 +60,11 @@
     <body>
         <div id='face'>
             <div id='leftEye' class='eye'>
-                <div class='eyebrow'></div>
+                <img class='eyebrow' src='leftbrow.png'>
                 <div class='pupil'></div>
             </div>
             <div id='rightEye' class='eye'>
+                <img class='eyebrow' src='rightbrow.png'>
                 <div class='pupil'></div>
             </div>
             <div id='mouth'>
